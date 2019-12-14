@@ -6,8 +6,10 @@
 //  Copyright © 2019 zhoupengju. All rights reserved.
 //
 
+#import "DemoTestViewController.h"
 #import "PJKnowledgeNotesController.h"
 #import "PJNavigationBaseController.h"
+#import "PJNSOperationViewController.h"
 #import "PJKnowledgeNotesMainTabBarManger.h"
 
 @implementation PJKnowledgeNotesMainTabBarManger
@@ -26,8 +28,12 @@
     PJNavigationBaseController *nav1 = [[PJNavigationBaseController alloc] initWithRootViewController:[[PJKnowledgeNotesController alloc] init]];
     nav1.tabBarItem = items1;
     
+    UITabBarItem *items2 = [self createTabBar:3 withString:@"Demo测试"];
+    PJNavigationBaseController *nav2 = [[PJNavigationBaseController alloc] initWithRootViewController:[[DemoTestViewController alloc] init]];
+    nav2.tabBarItem = items2;
     
-    tabbar.viewControllers = @[nav1];
+
+    tabbar.viewControllers = @[nav1, nav2];
     
     return tabbar;
 }

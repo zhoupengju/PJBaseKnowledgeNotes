@@ -6,7 +6,10 @@
 //  Copyright © 2019 zhoupengju. All rights reserved.
 //
 
+#import "FCViewController.h"
 #import "ViewControllerHelper.h"
+#import "RuntimeViewController.h"
+#import "PJTableViewViewController.h"
 #import "PJNSOperationViewController.h"
 
 @implementation ViewControllerHelper
@@ -18,6 +21,11 @@
     model1.name = @"NSOperation";
     model1.destVc = [PJNSOperationViewController class];
     [arr addObject:model1];
+    
+    ViewControllerModel *model2= [[ViewControllerModel alloc] init];
+    model2.name = @"FC";
+    model2.destVc = [FCViewController class];
+    [arr addObject:model2];
     
 //    ViewControllerModel *model5 = [[ViewControllerModel alloc] init];
 //    model5.name = @"隐式动画效果";
@@ -58,6 +66,26 @@
 //    model8.name = @"测试POP框架: https://github.com/facebook/pop. 正在测试中";
 //    model8.destVc = [facebookPopController class];
 //    [arr addObject:model8];
+    
+    return arr.copy;
+}
+
++ (NSArray *)dataSourceDemoTest {
+    
+    NSMutableArray *arr = [NSMutableArray array];
+    
+    ViewControllerModel *model1 = [[ViewControllerModel alloc] init];
+    model1.name = @"PJTableView";
+    model1.destVc = [PJTableViewViewController class];
+    [arr addObject:model1];
+    
+    ViewControllerModel *model2= [[ViewControllerModel alloc] init];
+    model2.name = @"Runtime";
+    model2.destVc = [RuntimeViewController class];
+    [arr addObject:model2];
+    
+    
+    
     
     return arr.copy;
 }

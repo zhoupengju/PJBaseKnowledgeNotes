@@ -67,7 +67,19 @@
 		CB39192D2394B58800CDD448 /* iosxx_2_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB3918E92394B58800CDD448 /* iosxx_2_on@2x.png */; };
 		CB39192E2394B58800CDD448 /* PJNavigationBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3918EF2394B58800CDD448 /* PJNavigationBaseController.m */; };
 		CB3919302394B58800CDD448 /* PJTabBarBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3918F12394B58800CDD448 /* PJTabBarBaseController.m */; };
-		CB91CD2C239504F000C4D7EA /* PJNSOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB91CD2B239504F000C4D7EA /* PJNSOperationViewController.m */; };
+		CB4AA54A23A4DFBA00CF12E9 /* DemoTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4AA54923A4DFBA00CF12E9 /* DemoTestViewController.m */; };
+		CB4AA54E23A4E1A500CF12E9 /* PJNSOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4AA54D23A4E1A500CF12E9 /* PJNSOperationViewController.m */; };
+		CB4AA55323A4E20600CF12E9 /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4AA55023A4E20600CF12E9 /* TestTableViewCell.m */; };
+		CB4AA55723A4E21600CF12E9 /* PJTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4AA55623A4E21600CF12E9 /* PJTableViewViewController.m */; };
+		CB4AA55A23A4E30100CF12E9 /* RuntimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4AA55923A4E30100CF12E9 /* RuntimeViewController.m */; };
+		CB4AA55F23A4E37100CF12E9 /* release_homework.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB4AA55E23A4E37100CF12E9 /* release_homework.jpg */; };
+		CB4AA56623A4E49000CF12E9 /* PJThread.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4AA56223A4E49000CF12E9 /* PJThread.m */; };
+		CB4AA56723A4E49000CF12E9 /* PJDog.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4AA56423A4E49000CF12E9 /* PJDog.m */; };
+		CB4AA56823A4E49000CF12E9 /* PJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4AA56523A4E49000CF12E9 /* PJPerson.m */; };
+		CB4AA56C23A4E51200CF12E9 /* FCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4AA56B23A4E51200CF12E9 /* FCViewController.m */; };
+		CB4AA57123A4E57C00CF12E9 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4AA56E23A4E57C00CF12E9 /* Person.m */; };
+		CB4AA57223A4E57C00CF12E9 /* FCSanboxFileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4AA56F23A4E57C00CF12E9 /* FCSanboxFileModel.m */; };
+		CB4AA57423A4E58100CF12E9 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB4AA57323A4E58100CF12E9 /* music.mp3 */; };
 		CB91CD2F2395056100C4D7EA /* ViewControllerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CB91CD2E2395056100C4D7EA /* ViewControllerHelper.m */; };
 		CB91CD32239505A000C4D7EA /* ViewControllerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CB91CD31239505A000C4D7EA /* ViewControllerModel.m */; };
 		CB91F5552394B8A2009756B5 /* PJKnowledgeNotesMainTabBarManger.m in Sources */ = {isa = PBXBuildFile; fileRef = CB91F5542394B8A2009756B5 /* PJKnowledgeNotesMainTabBarManger.m */; };
@@ -161,8 +173,30 @@
 		CB3918EE2394B58800CDD448 /* PJTabBarBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJTabBarBaseController.h; sourceTree = "<group>"; };
 		CB3918EF2394B58800CDD448 /* PJNavigationBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJNavigationBaseController.m; sourceTree = "<group>"; };
 		CB3918F12394B58800CDD448 /* PJTabBarBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJTabBarBaseController.m; sourceTree = "<group>"; };
-		CB91CD2A239504F000C4D7EA /* PJNSOperationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PJNSOperationViewController.h; sourceTree = "<group>"; };
-		CB91CD2B239504F000C4D7EA /* PJNSOperationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PJNSOperationViewController.m; sourceTree = "<group>"; };
+		CB4AA54823A4DFBA00CF12E9 /* DemoTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoTestViewController.h; sourceTree = "<group>"; };
+		CB4AA54923A4DFBA00CF12E9 /* DemoTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTestViewController.m; sourceTree = "<group>"; };
+		CB4AA54C23A4E1A500CF12E9 /* PJNSOperationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJNSOperationViewController.h; sourceTree = "<group>"; };
+		CB4AA54D23A4E1A500CF12E9 /* PJNSOperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJNSOperationViewController.m; sourceTree = "<group>"; };
+		CB4AA55023A4E20600CF12E9 /* TestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
+		CB4AA55223A4E20600CF12E9 /* TestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
+		CB4AA55523A4E21600CF12E9 /* PJTableViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PJTableViewViewController.h; sourceTree = "<group>"; };
+		CB4AA55623A4E21600CF12E9 /* PJTableViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PJTableViewViewController.m; sourceTree = "<group>"; };
+		CB4AA55823A4E30100CF12E9 /* RuntimeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeViewController.h; sourceTree = "<group>"; };
+		CB4AA55923A4E30100CF12E9 /* RuntimeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeViewController.m; sourceTree = "<group>"; };
+		CB4AA55E23A4E37100CF12E9 /* release_homework.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = release_homework.jpg; sourceTree = "<group>"; };
+		CB4AA56023A4E49000CF12E9 /* PJThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJThread.h; sourceTree = "<group>"; };
+		CB4AA56123A4E49000CF12E9 /* PJPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJPerson.h; sourceTree = "<group>"; };
+		CB4AA56223A4E49000CF12E9 /* PJThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJThread.m; sourceTree = "<group>"; };
+		CB4AA56323A4E49000CF12E9 /* PJDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJDog.h; sourceTree = "<group>"; };
+		CB4AA56423A4E49000CF12E9 /* PJDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJDog.m; sourceTree = "<group>"; };
+		CB4AA56523A4E49000CF12E9 /* PJPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJPerson.m; sourceTree = "<group>"; };
+		CB4AA56A23A4E51200CF12E9 /* FCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCViewController.h; sourceTree = "<group>"; };
+		CB4AA56B23A4E51200CF12E9 /* FCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCViewController.m; sourceTree = "<group>"; };
+		CB4AA56D23A4E57C00CF12E9 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		CB4AA56E23A4E57C00CF12E9 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		CB4AA56F23A4E57C00CF12E9 /* FCSanboxFileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCSanboxFileModel.m; sourceTree = "<group>"; };
+		CB4AA57023A4E57C00CF12E9 /* FCSanboxFileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCSanboxFileModel.h; sourceTree = "<group>"; };
+		CB4AA57323A4E58100CF12E9 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 		CB91CD2D2395056100C4D7EA /* ViewControllerHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerHelper.h; sourceTree = "<group>"; };
 		CB91CD2E2395056100C4D7EA /* ViewControllerHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerHelper.m; sourceTree = "<group>"; };
 		CB91CD30239505A000C4D7EA /* ViewControllerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerModel.h; sourceTree = "<group>"; };
@@ -232,6 +266,7 @@
 			isa = PBXGroup;
 			children = (
 				CB91F5592394B928009756B5 /* KnowledgeNotes */,
+				CB4AA54623A4DF9300CF12E9 /* DemoTest */,
 				CB3918932394B58700CDD448 /* BaseComponents */,
 				CB3918EA2394B58800CDD448 /* BaseClassUnits */,
 				CB3918C02394B58800CDD448 /* Resource */,
@@ -332,6 +367,7 @@
 		CB3918C02394B58800CDD448 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				CB4AA55B23A4E33300CF12E9 /* TestImage */,
 				CB3918C12394B58800CDD448 /* videoPlayer */,
 				CB3918D92394B58800CDD448 /* tabbarImage */,
 			);
@@ -422,6 +458,74 @@
 			path = BaseUnits;
 			sourceTree = "<group>";
 		};
+		CB4AA54623A4DF9300CF12E9 /* DemoTest */ = {
+			isa = PBXGroup;
+			children = (
+				CB4AA54823A4DFBA00CF12E9 /* DemoTestViewController.h */,
+				CB4AA54923A4DFBA00CF12E9 /* DemoTestViewController.m */,
+				CB4AA54F23A4E20600CF12E9 /* UITableView */,
+				CB4AA54723A4DF9300CF12E9 /* Runtime */,
+			);
+			path = DemoTest;
+			sourceTree = "<group>";
+		};
+		CB4AA54723A4DF9300CF12E9 /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				CB4AA55823A4E30100CF12E9 /* RuntimeViewController.h */,
+				CB4AA55923A4E30100CF12E9 /* RuntimeViewController.m */,
+				CB4AA56323A4E49000CF12E9 /* PJDog.h */,
+				CB4AA56423A4E49000CF12E9 /* PJDog.m */,
+				CB4AA56123A4E49000CF12E9 /* PJPerson.h */,
+				CB4AA56523A4E49000CF12E9 /* PJPerson.m */,
+				CB4AA56023A4E49000CF12E9 /* PJThread.h */,
+				CB4AA56223A4E49000CF12E9 /* PJThread.m */,
+			);
+			path = Runtime;
+			sourceTree = "<group>";
+		};
+		CB4AA54B23A4E1A500CF12E9 /* NSOperation */ = {
+			isa = PBXGroup;
+			children = (
+				CB4AA54C23A4E1A500CF12E9 /* PJNSOperationViewController.h */,
+				CB4AA54D23A4E1A500CF12E9 /* PJNSOperationViewController.m */,
+			);
+			path = NSOperation;
+			sourceTree = "<group>";
+		};
+		CB4AA54F23A4E20600CF12E9 /* UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				CB4AA55223A4E20600CF12E9 /* TestTableViewCell.h */,
+				CB4AA55023A4E20600CF12E9 /* TestTableViewCell.m */,
+				CB4AA55523A4E21600CF12E9 /* PJTableViewViewController.h */,
+				CB4AA55623A4E21600CF12E9 /* PJTableViewViewController.m */,
+			);
+			path = UITableView;
+			sourceTree = "<group>";
+		};
+		CB4AA55B23A4E33300CF12E9 /* TestImage */ = {
+			isa = PBXGroup;
+			children = (
+				CB4AA55E23A4E37100CF12E9 /* release_homework.jpg */,
+			);
+			path = TestImage;
+			sourceTree = "<group>";
+		};
+		CB4AA56923A4E50300CF12E9 /* FC笔试题 */ = {
+			isa = PBXGroup;
+			children = (
+				CB4AA56A23A4E51200CF12E9 /* FCViewController.h */,
+				CB4AA56B23A4E51200CF12E9 /* FCViewController.m */,
+				CB4AA57023A4E57C00CF12E9 /* FCSanboxFileModel.h */,
+				CB4AA56F23A4E57C00CF12E9 /* FCSanboxFileModel.m */,
+				CB4AA56D23A4E57C00CF12E9 /* Person.h */,
+				CB4AA56E23A4E57C00CF12E9 /* Person.m */,
+				CB4AA57323A4E58100CF12E9 /* music.mp3 */,
+			);
+			path = "FC笔试题";
+			sourceTree = "<group>";
+		};
 		CB91F5592394B928009756B5 /* KnowledgeNotes */ = {
 			isa = PBXGroup;
 			children = (
@@ -431,8 +535,8 @@
 				CB91CD2E2395056100C4D7EA /* ViewControllerHelper.m */,
 				CB91CD30239505A000C4D7EA /* ViewControllerModel.h */,
 				CB91CD31239505A000C4D7EA /* ViewControllerModel.m */,
-				CB91CD2A239504F000C4D7EA /* PJNSOperationViewController.h */,
-				CB91CD2B239504F000C4D7EA /* PJNSOperationViewController.m */,
+				CB4AA54B23A4E1A500CF12E9 /* NSOperation */,
+				CB4AA56923A4E50300CF12E9 /* FC笔试题 */,
 			);
 			path = KnowledgeNotes;
 			sourceTree = "<group>";
@@ -528,6 +632,7 @@
 				CB3919162394B58800CDD448 /* nextButton.png in Resources */,
 				CB3919182394B58800CDD448 /* playButton@2x.png in Resources */,
 				CB3919232394B58800CDD448 /* iosxx_1@3x.png in Resources */,
+				CB4AA57423A4E58100CF12E9 /* music.mp3 in Resources */,
 				CB3919212394B58800CDD448 /* iosxx_3@3x.png in Resources */,
 				CB3919082394B58800CDD448 /* unlockButton.png in Resources */,
 				CB39191B2394B58800CDD448 /* playButton.png in Resources */,
@@ -538,6 +643,7 @@
 				CB3919222394B58800CDD448 /* iosxx_3@2x.png in Resources */,
 				CB3919252394B58800CDD448 /* iosxx_4@3x.png in Resources */,
 				CB3919102394B58800CDD448 /* download_ic@2x.png in Resources */,
+				CB4AA55F23A4E37100CF12E9 /* release_homework.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,27 +697,37 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB91F55C2394B941009756B5 /* PJKnowledgeNotesController.m in Sources */,
+				CB4AA55A23A4E30100CF12E9 /* RuntimeViewController.m in Sources */,
 				CB3919302394B58800CDD448 /* PJTabBarBaseController.m in Sources */,
 				CB91F5552394B8A2009756B5 /* PJKnowledgeNotesMainTabBarManger.m in Sources */,
+				CB4AA55323A4E20600CF12E9 /* TestTableViewCell.m in Sources */,
 				CB91CD32239505A000C4D7EA /* ViewControllerModel.m in Sources */,
 				CB39192E2394B58800CDD448 /* PJNavigationBaseController.m in Sources */,
 				CB3918732394AAB100CDD448 /* AppDelegate.m in Sources */,
+				CB4AA54A23A4DFBA00CF12E9 /* DemoTestViewController.m in Sources */,
 				CB3918FD2394B58800CDD448 /* UISlider+PJHelperBlocksKit.m in Sources */,
 				CB3918F82394B58800CDD448 /* UIImageView+PJMasonryKit.m in Sources */,
 				CB3918F72394B58800CDD448 /* UIView+PJMasonryKit.m in Sources */,
+				CB4AA54E23A4E1A500CF12E9 /* PJNSOperationViewController.m in Sources */,
 				CB3918842394AAB300CDD448 /* main.m in Sources */,
-				CB91CD2C239504F000C4D7EA /* PJNSOperationViewController.m in Sources */,
 				CB3918FE2394B58800CDD448 /* PJCommonKit.m in Sources */,
 				CB3918FA2394B58800CDD448 /* UIControl+PJHelperBlockKit.m in Sources */,
 				CB91F5582394B8F0009756B5 /* PJKnowledgeNotesBaseController.m in Sources */,
+				CB4AA56623A4E49000CF12E9 /* PJThread.m in Sources */,
+				CB4AA56723A4E49000CF12E9 /* PJDog.m in Sources */,
+				CB4AA55723A4E21600CF12E9 /* PJTableViewViewController.m in Sources */,
 				CB3918FF2394B58800CDD448 /* UIView+MBLayout.m in Sources */,
+				CB4AA56C23A4E51200CF12E9 /* FCViewController.m in Sources */,
 				CB3918FB2394B58800CDD448 /* UIView+PJHelperBlockKit.m in Sources */,
 				CB3918762394AAB100CDD448 /* SceneDelegate.m in Sources */,
+				CB4AA57123A4E57C00CF12E9 /* Person.m in Sources */,
 				CB3918F52394B58800CDD448 /* UILabel+PJMasonryKit.m in Sources */,
 				CB3918F62394B58800CDD448 /* UITextField+PJMasonryKit.m in Sources */,
+				CB4AA57223A4E57C00CF12E9 /* FCSanboxFileModel.m in Sources */,
 				CB3919022394B58800CDD448 /* UIBarButtonItem+Extension.m in Sources */,
 				CB3919012394B58800CDD448 /* UIImage+Extension.m in Sources */,
 				CB91CD2F2395056100C4D7EA /* ViewControllerHelper.m in Sources */,
+				CB4AA56823A4E49000CF12E9 /* PJPerson.m in Sources */,
 				CB3918F92394B58800CDD448 /* UIGestureRecognizer+PJHelperBlockKit.m in Sources */,
 				CB3918FC2394B58800CDD448 /* UIButton+PJHelperBlocksKit.m in Sources */,
 			);
