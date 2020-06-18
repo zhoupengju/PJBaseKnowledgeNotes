@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB17E21423A889EC00AF6CAC /* NSObject+SafeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CB17E21223A889EC00AF6CAC /* NSObject+SafeTool.m */; };
 		CB3918732394AAB100CDD448 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3918722394AAB100CDD448 /* AppDelegate.m */; };
-		CB3918762394AAB100CDD448 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3918752394AAB100CDD448 /* SceneDelegate.m */; };
 		CB39187C2394AAB100CDD448 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB39187A2394AAB100CDD448 /* Main.storyboard */; };
 		CB39187E2394AAB300CDD448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB39187D2394AAB300CDD448 /* Assets.xcassets */; };
 		CB3918812394AAB300CDD448 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB39187F2394AAB300CDD448 /* LaunchScreen.storyboard */; };
@@ -92,11 +92,11 @@
 		3F9ACBF806EC55739F2D40E6 /* Pods-PJKnowledgeNotes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PJKnowledgeNotes.debug.xcconfig"; path = "Target Support Files/Pods-PJKnowledgeNotes/Pods-PJKnowledgeNotes.debug.xcconfig"; sourceTree = "<group>"; };
 		7AF0718D09F48FB137E30405 /* Pods-PJKnowledgeNotes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PJKnowledgeNotes.release.xcconfig"; path = "Target Support Files/Pods-PJKnowledgeNotes/Pods-PJKnowledgeNotes.release.xcconfig"; sourceTree = "<group>"; };
 		C953E36BE958B264664AF2BC /* Pods_PJKnowledgeNotes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PJKnowledgeNotes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB17E21223A889EC00AF6CAC /* NSObject+SafeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SafeTool.m"; sourceTree = "<group>"; };
+		CB17E21323A889EC00AF6CAC /* NSObject+SafeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SafeTool.h"; sourceTree = "<group>"; };
 		CB39186E2394AAB100CDD448 /* PJKnowledgeNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PJKnowledgeNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB3918712394AAB100CDD448 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CB3918722394AAB100CDD448 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CB3918742394AAB100CDD448 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		CB3918752394AAB100CDD448 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		CB39187B2394AAB100CDD448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB39187D2394AAB300CDD448 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB3918802394AAB300CDD448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -272,8 +272,6 @@
 				CB3918C02394B58800CDD448 /* Resource */,
 				CB3918712394AAB100CDD448 /* AppDelegate.h */,
 				CB3918722394AAB100CDD448 /* AppDelegate.m */,
-				CB3918742394AAB100CDD448 /* SceneDelegate.h */,
-				CB3918752394AAB100CDD448 /* SceneDelegate.m */,
 				CB91F5612394BA1F009756B5 /* Common_Color.h */,
 				CB91F5602394BA1F009756B5 /* Common_HeaderFile.h */,
 				CB91F55F2394BA1F009756B5 /* Common_LibMacro.h */,
@@ -474,6 +472,8 @@
 			children = (
 				CB4AA55823A4E30100CF12E9 /* RuntimeViewController.h */,
 				CB4AA55923A4E30100CF12E9 /* RuntimeViewController.m */,
+				CB17E21323A889EC00AF6CAC /* NSObject+SafeTool.h */,
+				CB17E21223A889EC00AF6CAC /* NSObject+SafeTool.m */,
 				CB4AA56323A4E49000CF12E9 /* PJDog.h */,
 				CB4AA56423A4E49000CF12E9 /* PJDog.m */,
 				CB4AA56123A4E49000CF12E9 /* PJPerson.h */,
@@ -526,6 +526,14 @@
 			path = "FC笔试题";
 			sourceTree = "<group>";
 		};
+		CB55A6E923A4E6730059C5B7 /* 常驻线程 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "常驻线程";
+			path = "PJKnowledgeNotes/KnowledgeNotes/常驻线程";
+			sourceTree = SOURCE_ROOT;
+		};
 		CB91F5592394B928009756B5 /* KnowledgeNotes */ = {
 			isa = PBXGroup;
 			children = (
@@ -537,6 +545,7 @@
 				CB91CD31239505A000C4D7EA /* ViewControllerModel.m */,
 				CB4AA54B23A4E1A500CF12E9 /* NSOperation */,
 				CB4AA56923A4E50300CF12E9 /* FC笔试题 */,
+				CB55A6E923A4E6730059C5B7 /* 常驻线程 */,
 			);
 			path = KnowledgeNotes;
 			sourceTree = "<group>";
@@ -715,11 +724,11 @@
 				CB91F5582394B8F0009756B5 /* PJKnowledgeNotesBaseController.m in Sources */,
 				CB4AA56623A4E49000CF12E9 /* PJThread.m in Sources */,
 				CB4AA56723A4E49000CF12E9 /* PJDog.m in Sources */,
+				CB17E21423A889EC00AF6CAC /* NSObject+SafeTool.m in Sources */,
 				CB4AA55723A4E21600CF12E9 /* PJTableViewViewController.m in Sources */,
 				CB3918FF2394B58800CDD448 /* UIView+MBLayout.m in Sources */,
 				CB4AA56C23A4E51200CF12E9 /* FCViewController.m in Sources */,
 				CB3918FB2394B58800CDD448 /* UIView+PJHelperBlockKit.m in Sources */,
-				CB3918762394AAB100CDD448 /* SceneDelegate.m in Sources */,
 				CB4AA57123A4E57C00CF12E9 /* Person.m in Sources */,
 				CB3918F52394B58800CDD448 /* UILabel+PJMasonryKit.m in Sources */,
 				CB3918F62394B58800CDD448 /* UITextField+PJMasonryKit.m in Sources */,

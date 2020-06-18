@@ -17,6 +17,8 @@
 
 @property (nonatomic, strong) PJThread *thread;
 
+@property (nonatomic, strong) PJPerson *p;
+
 @end
 
 @implementation RuntimeViewController
@@ -29,13 +31,41 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.thread = [[PJThread alloc] initWithTarget:self selector:@selector(run) object:nil];
-    [self.thread start];
+//    self.thread = [[PJThread alloc] initWithTarget:self selector:@selector(run) object:nil];
+//    [self.thread start];
+    
+//    PJPerson *p = [[PJPerson alloc] init];
+//    _p = p;
+//    p.age = 10;
+//     [p addObserver:self forKeyPath:@"age" options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld context:nil];
+//
+//    p.age = 1;
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(ttttttttt) name:@"PJhahahhhah" object:nil];
+}
+
+- (void)ttttttttt {
+    
+}
+
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context {
+    
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     
     [self performSelector:@selector(test111) onThread:self.thread withObject:nil waitUntilDone:NO];
+}
+
+-(void)dealloc {
+//    [self.p removeObserver:self forKeyPath:@"age"];
+//    [self.p removeObserver:self forKeyPath:@"age"];
+    
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+    
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:@"PJhahahhhah" object:nil];
+    
+    
 }
 
 - (void)test111 {
