@@ -7,7 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB16403B24C6FA6600598663 /* hahahahViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB16403A24C6FA6600598663 /* hahahahViewController.m */; };
+		CB16403D24C6FABE00598663 /* hahahahViewController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB16403C24C6FABE00598663 /* hahahahViewController.cpp */; };
 		CB17E21423A889EC00AF6CAC /* NSObject+SafeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CB17E21223A889EC00AF6CAC /* NSObject+SafeTool.m */; };
+		CB2374F3249CC16A00B34EFA /* NSObject+SelectorDefender.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2374F0249CC16900B34EFA /* NSObject+SelectorDefender.m */; };
+		CB2374F4249CC16A00B34EFA /* NSObject+MethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2374F2249CC16A00B34EFA /* NSObject+MethodSwizzling.m */; };
+		CB2374F724A1A1EA00B34EFA /* PermanentThreadManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2374F624A1A1EA00B34EFA /* PermanentThreadManagement.m */; };
+		CB2374F924A1A37800B34EFA /* noVoice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CB2374F824A1A37800B34EFA /* noVoice.mp3 */; };
+		CB2374FD24A2F18F00B34EFA /* ThreadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2374FB24A2F18F00B34EFA /* ThreadManager.m */; };
+		CB23750024A2F2F400B34EFA /* NSObject+function.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2374FF24A2F2F400B34EFA /* NSObject+function.m */; };
+		CB23750624A8308400B34EFA /* ResponderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB23750524A8308400B34EFA /* ResponderViewController.m */; };
+		CB23751C24AAD2CE00B34EFA /* PJHahaha.m in Sources */ = {isa = PBXBuildFile; fileRef = CB23751B24AAD2CE00B34EFA /* PJHahaha.m */; };
+		CB23757924AC22FC00B34EFA /* KVOKController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB23757824AC22FC00B34EFA /* KVOKController.m */; };
+		CB23757C24AC231600B34EFA /* KVOKObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CB23757B24AC231600B34EFA /* KVOKObject.m */; };
 		CB3918732394AAB100CDD448 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3918722394AAB100CDD448 /* AppDelegate.m */; };
 		CB39187C2394AAB100CDD448 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB39187A2394AAB100CDD448 /* Main.storyboard */; };
 		CB39187E2394AAB300CDD448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB39187D2394AAB300CDD448 /* Assets.xcassets */; };
@@ -67,6 +79,16 @@
 		CB39192D2394B58800CDD448 /* iosxx_2_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB3918E92394B58800CDD448 /* iosxx_2_on@2x.png */; };
 		CB39192E2394B58800CDD448 /* PJNavigationBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3918EF2394B58800CDD448 /* PJNavigationBaseController.m */; };
 		CB3919302394B58800CDD448 /* PJTabBarBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3918F12394B58800CDD448 /* PJTabBarBaseController.m */; };
+		CB46087924ACD7AA00AB7CF1 /* MemoryManagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB46087824ACD7AA00AB7CF1 /* MemoryManagerController.m */; };
+		CB46087F24AF073500AB7CF1 /* BlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB46087E24AF073500AB7CF1 /* BlockViewController.m */; };
+		CB46088224AF1FE600AB7CF1 /* shareInstanceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CB46088124AF1FE600AB7CF1 /* shareInstanceTest.m */; };
+		CB46089624B3217A00AB7CF1 /* NSObject+function1.m in Sources */ = {isa = PBXBuildFile; fileRef = CB46089524B3217A00AB7CF1 /* NSObject+function1.m */; };
+		CB46089924B3218900AB7CF1 /* NSObject+function2.m in Sources */ = {isa = PBXBuildFile; fileRef = CB46089824B3218900AB7CF1 /* NSObject+function2.m */; };
+		CB46089C24B326EC00AB7CF1 /* NSObject+function3.m in Sources */ = {isa = PBXBuildFile; fileRef = CB46089B24B326EC00AB7CF1 /* NSObject+function3.m */; };
+		CB4608A324B44EDF00AB7CF1 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = CB46089E24B44EDF00AB7CF1 /* index.html */; };
+		CB4608A524B44EDF00AB7CF1 /* WKWebView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4608A024B44EDF00AB7CF1 /* WKWebView+Extension.m */; };
+		CB4608AB24B44F2F00AB7CF1 /* NSObject+KVOGoalkeeper.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4608A924B44F2F00AB7CF1 /* NSObject+KVOGoalkeeper.m */; };
+		CB4608BA24B4775900AB7CF1 /* XHWKWebview.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4608B824B4775800AB7CF1 /* XHWKWebview.m */; };
 		CB4AA54A23A4DFBA00CF12E9 /* DemoTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4AA54923A4DFBA00CF12E9 /* DemoTestViewController.m */; };
 		CB4AA54E23A4E1A500CF12E9 /* PJNSOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4AA54D23A4E1A500CF12E9 /* PJNSOperationViewController.m */; };
 		CB4AA55323A4E20600CF12E9 /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4AA55023A4E20600CF12E9 /* TestTableViewCell.m */; };
@@ -85,6 +107,9 @@
 		CB91F5552394B8A2009756B5 /* PJKnowledgeNotesMainTabBarManger.m in Sources */ = {isa = PBXBuildFile; fileRef = CB91F5542394B8A2009756B5 /* PJKnowledgeNotesMainTabBarManger.m */; };
 		CB91F5582394B8F0009756B5 /* PJKnowledgeNotesBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB91F5572394B8F0009756B5 /* PJKnowledgeNotesBaseController.m */; };
 		CB91F55C2394B941009756B5 /* PJKnowledgeNotesController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB91F55B2394B941009756B5 /* PJKnowledgeNotesController.m */; };
+		CBA4364624B8207000695018 /* RuntimeEmptyTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA4364524B8207000695018 /* RuntimeEmptyTestController.m */; };
+		CBA4364E24BD92F900695018 /* PJRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA4364D24BD92F900695018 /* PJRoute.m */; };
+		CBA4365124BD999300695018 /* PJRouteURL.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA4365024BD999300695018 /* PJRouteURL.m */; };
 		EEAB7DECE7889C7EE268AE4A /* Pods_PJKnowledgeNotes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C953E36BE958B264664AF2BC /* Pods_PJKnowledgeNotes.framework */; };
 /* End PBXBuildFile section */
 
@@ -92,8 +117,30 @@
 		3F9ACBF806EC55739F2D40E6 /* Pods-PJKnowledgeNotes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PJKnowledgeNotes.debug.xcconfig"; path = "Target Support Files/Pods-PJKnowledgeNotes/Pods-PJKnowledgeNotes.debug.xcconfig"; sourceTree = "<group>"; };
 		7AF0718D09F48FB137E30405 /* Pods-PJKnowledgeNotes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PJKnowledgeNotes.release.xcconfig"; path = "Target Support Files/Pods-PJKnowledgeNotes/Pods-PJKnowledgeNotes.release.xcconfig"; sourceTree = "<group>"; };
 		C953E36BE958B264664AF2BC /* Pods_PJKnowledgeNotes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PJKnowledgeNotes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB16403924C6FA6600598663 /* hahahahViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hahahahViewController.h; sourceTree = "<group>"; };
+		CB16403A24C6FA6600598663 /* hahahahViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hahahahViewController.m; sourceTree = "<group>"; };
+		CB16403C24C6FABE00598663 /* hahahahViewController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hahahahViewController.cpp; sourceTree = "<group>"; };
 		CB17E21223A889EC00AF6CAC /* NSObject+SafeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SafeTool.m"; sourceTree = "<group>"; };
 		CB17E21323A889EC00AF6CAC /* NSObject+SafeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SafeTool.h"; sourceTree = "<group>"; };
+		CB2374EF249CC16900B34EFA /* NSObject+SelectorDefender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SelectorDefender.h"; sourceTree = "<group>"; };
+		CB2374F0249CC16900B34EFA /* NSObject+SelectorDefender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SelectorDefender.m"; sourceTree = "<group>"; };
+		CB2374F1249CC16A00B34EFA /* NSObject+MethodSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MethodSwizzling.h"; sourceTree = "<group>"; };
+		CB2374F2249CC16A00B34EFA /* NSObject+MethodSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MethodSwizzling.m"; sourceTree = "<group>"; };
+		CB2374F524A1A1EA00B34EFA /* PermanentThreadManagement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PermanentThreadManagement.h; sourceTree = "<group>"; };
+		CB2374F624A1A1EA00B34EFA /* PermanentThreadManagement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PermanentThreadManagement.m; sourceTree = "<group>"; };
+		CB2374F824A1A37800B34EFA /* noVoice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = noVoice.mp3; sourceTree = "<group>"; };
+		CB2374FB24A2F18F00B34EFA /* ThreadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadManager.m; sourceTree = "<group>"; };
+		CB2374FC24A2F18F00B34EFA /* ThreadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadManager.h; sourceTree = "<group>"; };
+		CB2374FE24A2F2F400B34EFA /* NSObject+function.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+function.h"; sourceTree = "<group>"; };
+		CB2374FF24A2F2F400B34EFA /* NSObject+function.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+function.m"; sourceTree = "<group>"; };
+		CB23750424A8308400B34EFA /* ResponderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResponderViewController.h; sourceTree = "<group>"; };
+		CB23750524A8308400B34EFA /* ResponderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResponderViewController.m; sourceTree = "<group>"; };
+		CB23751A24AAD2CE00B34EFA /* PJHahaha.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PJHahaha.h; sourceTree = "<group>"; };
+		CB23751B24AAD2CE00B34EFA /* PJHahaha.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PJHahaha.m; sourceTree = "<group>"; };
+		CB23757724AC22FC00B34EFA /* KVOKController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVOKController.h; sourceTree = "<group>"; };
+		CB23757824AC22FC00B34EFA /* KVOKController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOKController.m; sourceTree = "<group>"; };
+		CB23757A24AC231600B34EFA /* KVOKObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVOKObject.h; sourceTree = "<group>"; };
+		CB23757B24AC231600B34EFA /* KVOKObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOKObject.m; sourceTree = "<group>"; };
 		CB39186E2394AAB100CDD448 /* PJKnowledgeNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PJKnowledgeNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB3918712394AAB100CDD448 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CB3918722394AAB100CDD448 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -173,6 +220,25 @@
 		CB3918EE2394B58800CDD448 /* PJTabBarBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJTabBarBaseController.h; sourceTree = "<group>"; };
 		CB3918EF2394B58800CDD448 /* PJNavigationBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJNavigationBaseController.m; sourceTree = "<group>"; };
 		CB3918F12394B58800CDD448 /* PJTabBarBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJTabBarBaseController.m; sourceTree = "<group>"; };
+		CB46087724ACD7AA00AB7CF1 /* MemoryManagerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoryManagerController.h; sourceTree = "<group>"; };
+		CB46087824ACD7AA00AB7CF1 /* MemoryManagerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoryManagerController.m; sourceTree = "<group>"; };
+		CB46087D24AF073500AB7CF1 /* BlockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockViewController.h; sourceTree = "<group>"; };
+		CB46087E24AF073500AB7CF1 /* BlockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockViewController.m; sourceTree = "<group>"; };
+		CB46088024AF1FE600AB7CF1 /* shareInstanceTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shareInstanceTest.h; sourceTree = "<group>"; };
+		CB46088124AF1FE600AB7CF1 /* shareInstanceTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shareInstanceTest.m; sourceTree = "<group>"; };
+		CB46089424B3217A00AB7CF1 /* NSObject+function1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+function1.h"; sourceTree = "<group>"; };
+		CB46089524B3217A00AB7CF1 /* NSObject+function1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+function1.m"; sourceTree = "<group>"; };
+		CB46089724B3218900AB7CF1 /* NSObject+function2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+function2.h"; sourceTree = "<group>"; };
+		CB46089824B3218900AB7CF1 /* NSObject+function2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+function2.m"; sourceTree = "<group>"; };
+		CB46089A24B326EB00AB7CF1 /* NSObject+function3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+function3.h"; sourceTree = "<group>"; };
+		CB46089B24B326EC00AB7CF1 /* NSObject+function3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+function3.m"; sourceTree = "<group>"; };
+		CB46089E24B44EDF00AB7CF1 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		CB4608A024B44EDF00AB7CF1 /* WKWebView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKWebView+Extension.m"; sourceTree = "<group>"; };
+		CB4608A224B44EDF00AB7CF1 /* WKWebView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKWebView+Extension.h"; sourceTree = "<group>"; };
+		CB4608A924B44F2F00AB7CF1 /* NSObject+KVOGoalkeeper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVOGoalkeeper.m"; sourceTree = "<group>"; };
+		CB4608AA24B44F2F00AB7CF1 /* NSObject+KVOGoalkeeper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVOGoalkeeper.h"; sourceTree = "<group>"; };
+		CB4608B824B4775800AB7CF1 /* XHWKWebview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHWKWebview.m; sourceTree = "<group>"; };
+		CB4608B924B4775800AB7CF1 /* XHWKWebview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHWKWebview.h; sourceTree = "<group>"; };
 		CB4AA54823A4DFBA00CF12E9 /* DemoTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoTestViewController.h; sourceTree = "<group>"; };
 		CB4AA54923A4DFBA00CF12E9 /* DemoTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTestViewController.m; sourceTree = "<group>"; };
 		CB4AA54C23A4E1A500CF12E9 /* PJNSOperationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJNSOperationViewController.h; sourceTree = "<group>"; };
@@ -213,6 +279,13 @@
 		CB91F5602394BA1F009756B5 /* Common_HeaderFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common_HeaderFile.h; sourceTree = "<group>"; };
 		CB91F5612394BA1F009756B5 /* Common_Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common_Color.h; sourceTree = "<group>"; };
 		CB91F5622394BA1F009756B5 /* Common_Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common_Macro.h; sourceTree = "<group>"; };
+		CBA4364424B8207000695018 /* RuntimeEmptyTestController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeEmptyTestController.h; sourceTree = "<group>"; };
+		CBA4364524B8207000695018 /* RuntimeEmptyTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeEmptyTestController.m; sourceTree = "<group>"; };
+		CBA4364724B8217800695018 /* RuntimeEmptyTestController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RuntimeEmptyTestController.cpp; sourceTree = "<group>"; };
+		CBA4364C24BD92F900695018 /* PJRoute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PJRoute.h; sourceTree = "<group>"; };
+		CBA4364D24BD92F900695018 /* PJRoute.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PJRoute.m; sourceTree = "<group>"; };
+		CBA4364F24BD999300695018 /* PJRouteURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PJRouteURL.h; sourceTree = "<group>"; };
+		CBA4365024BD999300695018 /* PJRouteURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PJRouteURL.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,6 +315,35 @@
 				7AF0718D09F48FB137E30405 /* Pods-PJKnowledgeNotes.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		CB2374FA24A2F17800B34EFA /* ManagementUnit */ = {
+			isa = PBXGroup;
+			children = (
+				CB2374FC24A2F18F00B34EFA /* ThreadManager.h */,
+				CB2374FB24A2F18F00B34EFA /* ThreadManager.m */,
+			);
+			path = ManagementUnit;
+			sourceTree = "<group>";
+		};
+		CB23750324A8306000B34EFA /* Responder */ = {
+			isa = PBXGroup;
+			children = (
+				CB23750424A8308400B34EFA /* ResponderViewController.h */,
+				CB23750524A8308400B34EFA /* ResponderViewController.m */,
+			);
+			path = Responder;
+			sourceTree = "<group>";
+		};
+		CB23757324AC229500B34EFA /* KVOKVC */ = {
+			isa = PBXGroup;
+			children = (
+				CB23757724AC22FC00B34EFA /* KVOKController.h */,
+				CB23757824AC22FC00B34EFA /* KVOKController.m */,
+				CB23757A24AC231600B34EFA /* KVOKObject.h */,
+				CB23757B24AC231600B34EFA /* KVOKObject.m */,
+			);
+			path = KVOKVC;
 			sourceTree = "<group>";
 		};
 		CB3918652394AAB100CDD448 = {
@@ -290,6 +392,8 @@
 		CB3918932394B58700CDD448 /* BaseComponents */ = {
 			isa = PBXGroup;
 			children = (
+				CBA4364B24BD92B300695018 /* PJRoute */,
+				CB2374FA24A2F17800B34EFA /* ManagementUnit */,
 				CB3918942394B58700CDD448 /* PJKitHelper */,
 				CB3918AE2394B58700CDD448 /* Categories */,
 			);
@@ -456,13 +560,52 @@
 			path = BaseUnits;
 			sourceTree = "<group>";
 		};
+		CB46087024ACD79500AB7CF1 /* MemoryManager */ = {
+			isa = PBXGroup;
+			children = (
+				CB46087724ACD7AA00AB7CF1 /* MemoryManagerController.h */,
+				CB46087824ACD7AA00AB7CF1 /* MemoryManagerController.m */,
+			);
+			path = MemoryManager;
+			sourceTree = "<group>";
+		};
+		CB46087C24AF072900AB7CF1 /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				CB46087D24AF073500AB7CF1 /* BlockViewController.h */,
+				CB46087E24AF073500AB7CF1 /* BlockViewController.m */,
+				CB46088024AF1FE600AB7CF1 /* shareInstanceTest.h */,
+				CB46088124AF1FE600AB7CF1 /* shareInstanceTest.m */,
+			);
+			path = Block;
+			sourceTree = "<group>";
+		};
+		CB46089D24B44EDF00AB7CF1 /* XHWKWebview */ = {
+			isa = PBXGroup;
+			children = (
+				CB46089E24B44EDF00AB7CF1 /* index.html */,
+				CB4608B924B4775800AB7CF1 /* XHWKWebview.h */,
+				CB4608B824B4775800AB7CF1 /* XHWKWebview.m */,
+				CB4608A224B44EDF00AB7CF1 /* WKWebView+Extension.h */,
+				CB4608A024B44EDF00AB7CF1 /* WKWebView+Extension.m */,
+				CB4608AA24B44F2F00AB7CF1 /* NSObject+KVOGoalkeeper.h */,
+				CB4608A924B44F2F00AB7CF1 /* NSObject+KVOGoalkeeper.m */,
+			);
+			path = XHWKWebview;
+			sourceTree = "<group>";
+		};
 		CB4AA54623A4DF9300CF12E9 /* DemoTest */ = {
 			isa = PBXGroup;
 			children = (
 				CB4AA54823A4DFBA00CF12E9 /* DemoTestViewController.h */,
 				CB4AA54923A4DFBA00CF12E9 /* DemoTestViewController.m */,
+				CB46089D24B44EDF00AB7CF1 /* XHWKWebview */,
 				CB4AA54F23A4E20600CF12E9 /* UITableView */,
 				CB4AA54723A4DF9300CF12E9 /* Runtime */,
+				CB23750324A8306000B34EFA /* Responder */,
+				CB23757324AC229500B34EFA /* KVOKVC */,
+				CB46087024ACD79500AB7CF1 /* MemoryManager */,
+				CB46087C24AF072900AB7CF1 /* Block */,
 			);
 			path = DemoTest;
 			sourceTree = "<group>";
@@ -472,14 +615,34 @@
 			children = (
 				CB4AA55823A4E30100CF12E9 /* RuntimeViewController.h */,
 				CB4AA55923A4E30100CF12E9 /* RuntimeViewController.m */,
+				CBA4364424B8207000695018 /* RuntimeEmptyTestController.h */,
+				CBA4364524B8207000695018 /* RuntimeEmptyTestController.m */,
+				CBA4364724B8217800695018 /* RuntimeEmptyTestController.cpp */,
 				CB17E21323A889EC00AF6CAC /* NSObject+SafeTool.h */,
 				CB17E21223A889EC00AF6CAC /* NSObject+SafeTool.m */,
+				CB2374FE24A2F2F400B34EFA /* NSObject+function.h */,
+				CB2374FF24A2F2F400B34EFA /* NSObject+function.m */,
+				CB2374F1249CC16A00B34EFA /* NSObject+MethodSwizzling.h */,
+				CB2374F2249CC16A00B34EFA /* NSObject+MethodSwizzling.m */,
+				CB2374EF249CC16900B34EFA /* NSObject+SelectorDefender.h */,
+				CB2374F0249CC16900B34EFA /* NSObject+SelectorDefender.m */,
+				CB46089424B3217A00AB7CF1 /* NSObject+function1.h */,
+				CB46089524B3217A00AB7CF1 /* NSObject+function1.m */,
+				CB46089724B3218900AB7CF1 /* NSObject+function2.h */,
+				CB46089824B3218900AB7CF1 /* NSObject+function2.m */,
+				CB46089A24B326EB00AB7CF1 /* NSObject+function3.h */,
+				CB46089B24B326EC00AB7CF1 /* NSObject+function3.m */,
+				CB16403924C6FA6600598663 /* hahahahViewController.h */,
+				CB16403A24C6FA6600598663 /* hahahahViewController.m */,
+				CB16403C24C6FABE00598663 /* hahahahViewController.cpp */,
 				CB4AA56323A4E49000CF12E9 /* PJDog.h */,
 				CB4AA56423A4E49000CF12E9 /* PJDog.m */,
 				CB4AA56123A4E49000CF12E9 /* PJPerson.h */,
 				CB4AA56523A4E49000CF12E9 /* PJPerson.m */,
 				CB4AA56023A4E49000CF12E9 /* PJThread.h */,
 				CB4AA56223A4E49000CF12E9 /* PJThread.m */,
+				CB23751A24AAD2CE00B34EFA /* PJHahaha.h */,
+				CB23751B24AAD2CE00B34EFA /* PJHahaha.m */,
 			);
 			path = Runtime;
 			sourceTree = "<group>";
@@ -529,6 +692,9 @@
 		CB55A6E923A4E6730059C5B7 /* 常驻线程 */ = {
 			isa = PBXGroup;
 			children = (
+				CB2374F824A1A37800B34EFA /* noVoice.mp3 */,
+				CB2374F524A1A1EA00B34EFA /* PermanentThreadManagement.h */,
+				CB2374F624A1A1EA00B34EFA /* PermanentThreadManagement.m */,
 			);
 			name = "常驻线程";
 			path = "PJKnowledgeNotes/KnowledgeNotes/常驻线程";
@@ -549,6 +715,18 @@
 			);
 			path = KnowledgeNotes;
 			sourceTree = "<group>";
+		};
+		CBA4364B24BD92B300695018 /* PJRoute */ = {
+			isa = PBXGroup;
+			children = (
+				CBA4364C24BD92F900695018 /* PJRoute.h */,
+				CBA4364D24BD92F900695018 /* PJRoute.m */,
+				CBA4364F24BD999300695018 /* PJRouteURL.h */,
+				CBA4365024BD999300695018 /* PJRouteURL.m */,
+			);
+			name = PJRoute;
+			path = PJKnowledgeNotes/PJRoute;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -634,6 +812,7 @@
 				CB3919172394B58800CDD448 /* playerBackButton@2x.png in Resources */,
 				CB3919132394B58800CDD448 /* nextButton@2x.png in Resources */,
 				CB3919202394B58800CDD448 /* iosxx_1@2x.png in Resources */,
+				CB4608A324B44EDF00AB7CF1 /* index.html in Resources */,
 				CB39191A2394B58800CDD448 /* pauseButton@2x.png in Resources */,
 				CB39190A2394B58800CDD448 /* lastButton.png in Resources */,
 				CB3919092394B58800CDD448 /* big_stop_ic.png in Resources */,
@@ -641,6 +820,7 @@
 				CB3919162394B58800CDD448 /* nextButton.png in Resources */,
 				CB3919182394B58800CDD448 /* playButton@2x.png in Resources */,
 				CB3919232394B58800CDD448 /* iosxx_1@3x.png in Resources */,
+				CB2374F924A1A37800B34EFA /* noVoice.mp3 in Resources */,
 				CB4AA57423A4E58100CF12E9 /* music.mp3 in Resources */,
 				CB3919212394B58800CDD448 /* iosxx_3@3x.png in Resources */,
 				CB3919082394B58800CDD448 /* unlockButton.png in Resources */,
@@ -705,30 +885,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB23757924AC22FC00B34EFA /* KVOKController.m in Sources */,
 				CB91F55C2394B941009756B5 /* PJKnowledgeNotesController.m in Sources */,
 				CB4AA55A23A4E30100CF12E9 /* RuntimeViewController.m in Sources */,
+				CB46087F24AF073500AB7CF1 /* BlockViewController.m in Sources */,
 				CB3919302394B58800CDD448 /* PJTabBarBaseController.m in Sources */,
+				CB4608AB24B44F2F00AB7CF1 /* NSObject+KVOGoalkeeper.m in Sources */,
 				CB91F5552394B8A2009756B5 /* PJKnowledgeNotesMainTabBarManger.m in Sources */,
+				CB2374F724A1A1EA00B34EFA /* PermanentThreadManagement.m in Sources */,
 				CB4AA55323A4E20600CF12E9 /* TestTableViewCell.m in Sources */,
+				CBA4364624B8207000695018 /* RuntimeEmptyTestController.m in Sources */,
 				CB91CD32239505A000C4D7EA /* ViewControllerModel.m in Sources */,
+				CB23750024A2F2F400B34EFA /* NSObject+function.m in Sources */,
+				CB2374FD24A2F18F00B34EFA /* ThreadManager.m in Sources */,
+				CB2374F3249CC16A00B34EFA /* NSObject+SelectorDefender.m in Sources */,
 				CB39192E2394B58800CDD448 /* PJNavigationBaseController.m in Sources */,
+				CB46087924ACD7AA00AB7CF1 /* MemoryManagerController.m in Sources */,
 				CB3918732394AAB100CDD448 /* AppDelegate.m in Sources */,
 				CB4AA54A23A4DFBA00CF12E9 /* DemoTestViewController.m in Sources */,
+				CB2374F4249CC16A00B34EFA /* NSObject+MethodSwizzling.m in Sources */,
+				CB23751C24AAD2CE00B34EFA /* PJHahaha.m in Sources */,
 				CB3918FD2394B58800CDD448 /* UISlider+PJHelperBlocksKit.m in Sources */,
+				CBA4365124BD999300695018 /* PJRouteURL.m in Sources */,
 				CB3918F82394B58800CDD448 /* UIImageView+PJMasonryKit.m in Sources */,
 				CB3918F72394B58800CDD448 /* UIView+PJMasonryKit.m in Sources */,
 				CB4AA54E23A4E1A500CF12E9 /* PJNSOperationViewController.m in Sources */,
 				CB3918842394AAB300CDD448 /* main.m in Sources */,
 				CB3918FE2394B58800CDD448 /* PJCommonKit.m in Sources */,
 				CB3918FA2394B58800CDD448 /* UIControl+PJHelperBlockKit.m in Sources */,
+				CB16403B24C6FA6600598663 /* hahahahViewController.m in Sources */,
 				CB91F5582394B8F0009756B5 /* PJKnowledgeNotesBaseController.m in Sources */,
+				CB46089924B3218900AB7CF1 /* NSObject+function2.m in Sources */,
+				CB46089624B3217A00AB7CF1 /* NSObject+function1.m in Sources */,
 				CB4AA56623A4E49000CF12E9 /* PJThread.m in Sources */,
+				CB16403D24C6FABE00598663 /* hahahahViewController.cpp in Sources */,
 				CB4AA56723A4E49000CF12E9 /* PJDog.m in Sources */,
 				CB17E21423A889EC00AF6CAC /* NSObject+SafeTool.m in Sources */,
 				CB4AA55723A4E21600CF12E9 /* PJTableViewViewController.m in Sources */,
+				CB46089C24B326EC00AB7CF1 /* NSObject+function3.m in Sources */,
+				CB23757C24AC231600B34EFA /* KVOKObject.m in Sources */,
 				CB3918FF2394B58800CDD448 /* UIView+MBLayout.m in Sources */,
+				CBA4364E24BD92F900695018 /* PJRoute.m in Sources */,
 				CB4AA56C23A4E51200CF12E9 /* FCViewController.m in Sources */,
 				CB3918FB2394B58800CDD448 /* UIView+PJHelperBlockKit.m in Sources */,
+				CB4608A524B44EDF00AB7CF1 /* WKWebView+Extension.m in Sources */,
 				CB4AA57123A4E57C00CF12E9 /* Person.m in Sources */,
 				CB3918F52394B58800CDD448 /* UILabel+PJMasonryKit.m in Sources */,
 				CB3918F62394B58800CDD448 /* UITextField+PJMasonryKit.m in Sources */,
@@ -737,8 +937,11 @@
 				CB3919012394B58800CDD448 /* UIImage+Extension.m in Sources */,
 				CB91CD2F2395056100C4D7EA /* ViewControllerHelper.m in Sources */,
 				CB4AA56823A4E49000CF12E9 /* PJPerson.m in Sources */,
+				CB23750624A8308400B34EFA /* ResponderViewController.m in Sources */,
 				CB3918F92394B58800CDD448 /* UIGestureRecognizer+PJHelperBlockKit.m in Sources */,
+				CB46088224AF1FE600AB7CF1 /* shareInstanceTest.m in Sources */,
 				CB3918FC2394B58800CDD448 /* UIButton+PJHelperBlocksKit.m in Sources */,
+				CB4608BA24B4775900AB7CF1 /* XHWKWebview.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -880,8 +1083,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B3U2V9CB2T;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = PJKnowledgeNotes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -898,8 +1103,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B3U2V9CB2T;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = PJKnowledgeNotes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

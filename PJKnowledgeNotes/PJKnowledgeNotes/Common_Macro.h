@@ -10,9 +10,9 @@
 #define Common_Macro_h
 
 #ifdef DEBUG
-#   define TRTLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#   define PJLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
 #else
-#   define TRTLog(...)
+#   define PJLog(...)
 #endif
 
 // 宽, 高

@@ -14,4 +14,6 @@
 
 - (void)funcA;
 
+- (void)funcAhahhaha;
+
 @end

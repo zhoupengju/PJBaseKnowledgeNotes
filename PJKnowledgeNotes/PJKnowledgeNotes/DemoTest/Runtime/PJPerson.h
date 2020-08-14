@@ -10,6 +10,12 @@
 #import <Foundation/Foundation.h>
 
 @interface PJPerson : NSObject
+{
+    @public
+    int _ageH;
+}
+
+@property (atomic, assign) int height;
 
 @property (nonatomic, assign) NSUInteger age;
 
@@ -18,6 +24,10 @@
 - (int)test:(int)num;
 
 - (void)personTest;
+
+- (void)test;
+
+- (void)eat;
 
 + (UIImage *)PJ_imageNamed:(NSString *)name;
 

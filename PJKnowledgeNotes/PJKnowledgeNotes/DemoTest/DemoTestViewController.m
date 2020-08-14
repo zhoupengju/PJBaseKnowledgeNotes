@@ -34,8 +34,31 @@ static NSString *ID = @"UITableViewCell";
     tableview.dataSource = self;
     
     [tableview registerClass:[UITableViewCell class] forCellReuseIdentifier:ID];
+    
+//    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(10, 100, 350, 300)];
+//    btn.backgroundColor = [UIColor redColor];
+//    [self.view addSubview:btn];
+    
+//    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(10, 100, 350, 300)];
+//    imageView.backgroundColor = [UIColor redColor];
+//    [self.view addSubview:imageView];
+//    
+//    imageView.userInteractionEnabled = YES;
+//    
+//    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(20, 20, 300, 80)];
+//    btn.backgroundColor = [UIColor greenColor];
+//    [imageView addSubview:btn];
+//
+//    [btn addTarget:self action:@selector(hahhahahhaa:) forControlEvents:UIControlEventTouchUpInside];
 }
 
+- (void)dealloc {
+    NSLog(@"dealloc");
+}
+
+- (void)hahhahahhaa:(UIButton *)sender {
+    NSLog(@"hahhahahhaa");
+}
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return self.arrayData.count;

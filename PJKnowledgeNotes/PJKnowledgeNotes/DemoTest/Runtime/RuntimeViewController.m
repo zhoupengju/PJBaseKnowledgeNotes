@@ -33,23 +33,18 @@
     
 //    self.thread = [[PJThread alloc] initWithTarget:self selector:@selector(run) object:nil];
 //    [self.thread start];
-    
-//    PJPerson *p = [[PJPerson alloc] init];
-//    _p = p;
-//    p.age = 10;
-//     [p addObserver:self forKeyPath:@"age" options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld context:nil];
+
+//    SEL metod = @selector(test111);
 //
-//    p.age = 1;
+//    PJLog(@"%@", NSStringFromSelector(metod));
     
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(ttttttttt) name:@"PJhahahhhah" object:nil];
+    [self performSelector:@selector(ttttttttt)];
 }
 
 - (void)ttttttttt {
+    PJLog(@"ttttttttt");
     
-}
-
-- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context {
-    
+    PJLog(@"%s", @encode(id));
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
@@ -60,6 +55,8 @@
 -(void)dealloc {
 //    [self.p removeObserver:self forKeyPath:@"age"];
 //    [self.p removeObserver:self forKeyPath:@"age"];
+    
+    [self.p removeObserver:self forKeyPath:@"_ageH"];
     
     [[NSNotificationCenter defaultCenter] removeObserver:self];
     

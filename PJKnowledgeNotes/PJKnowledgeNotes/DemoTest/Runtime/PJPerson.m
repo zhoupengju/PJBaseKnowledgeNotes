@@ -12,24 +12,45 @@
 
 @implementation PJPerson
 
--(void)personTest {
-    NSLog(@"%@", [self class]);
-    
-    
+-(void)dealloc {
+    NSLog(@"dealloc");
 }
+//
+//- (void)others {
+//    NSLog(@"------others------");
+//}
+//
+//+ (BOOL)resolveInstanceMethod:(SEL)sel {
+//    
+//    Method method = class_getInstanceMethod(self, @selector(others));
+//    
+//    class_addMethod(self, sel, method_getImplementation(method), method_getTypeEncoding(method));
+//    
+//    return [super resolveInstanceMethod:sel];
+//}
 
-// 3. 消息转发
-
--(NSMethodSignature *)methodSignatureForSelector:(SEL)aSelector {
-    
-    if (aSelector == @selector(test:)) {
-//        return [NSMethodSignature signatureWithObjCTypes:"v16@0:8"];
-//        return [[[PJDog alloc] init] methodSignatureForSelector:aSelector];
-        return [NSMethodSignature signatureWithObjCTypes:"i@:i"];
-    }
-    
-    return [super methodSignatureForSelector:aSelector];
-}
+//-(void)personTest {
+//    NSLog(@"%@", [self class]);
+//    
+//    
+//}
+//
+//-(void)eat {
+////    NSLog(@"%f", [[UIApplication sharedApplication] statusBarFrame].size.height);
+//}
+//
+//// 3. 消息转发
+//
+//-(NSMethodSignature *)methodSignatureForSelector:(SEL)aSelector {
+//    
+//    if (aSelector == @selector(test:)) {
+////        return [NSMethodSignature signatureWithObjCTypes:"v16@0:8"];
+////        return [[[PJDog alloc] init] methodSignatureForSelector:aSelector];
+//        return [NSMethodSignature signatureWithObjCTypes:"i@:i"];
+//    }
+//    
+//    return [super methodSignatureForSelector:aSelector];
+//}
 
 // anInvocation封装了一个方法调用, 包括调用者, 方法名, 方法参数
 // anInvocation.target      调用者
@@ -37,17 +58,17 @@
 // [anInvocation getArgument:NULL atIndex:0]    方法参数
 
 // 这个方法里面想干什么就干什么, 什么都不干也行, 可以尽情的放飞自我
--(void)forwardInvocation:(NSInvocation *)anInvocation {
-    
-//    anInvocation.target = [[PJDog alloc] init];
-//    [anInvocation invoke];
-    
-    [anInvocation invokeWithTarget:[[PJDog alloc] init]];
-
-    int age = 0;
-    [anInvocation getReturnValue:&age];
-    NSLog(@"%d", age);
-}
+//-(void)forwardInvocation:(NSInvocation *)anInvocation {
+//    
+////    anInvocation.target = [[PJDog alloc] init];
+////    [anInvocation invoke];
+//    
+//    [anInvocation invokeWithTarget:[[PJDog alloc] init]];
+//
+//    int age = 0;
+//    [anInvocation getReturnValue:&age];
+//    NSLog(@"%d", age);
+//}
 
 //-(id)forwardingTargetForSelector:(SEL)aSelector {
 //
