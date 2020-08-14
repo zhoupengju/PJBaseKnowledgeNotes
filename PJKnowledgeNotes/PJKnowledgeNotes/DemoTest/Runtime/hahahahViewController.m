@@ -20,12 +20,12 @@
     NSLog(@"%@", [super class]);
     
     
-    objc_msgSendSuper(
-    
-    {self, [UIViewController Class]},
-    sel_registerName("class")
-                       
-                       )
+//    objc_msgSendSuper(
+//    
+//    {self, [UIViewController Class]},
+//    sel_registerName("class")
+//                       
+//                       )
 }
 
 

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CB16403B24C6FA6600598663 /* hahahahViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB16403A24C6FA6600598663 /* hahahahViewController.m */; };
-		CB16403D24C6FABE00598663 /* hahahahViewController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB16403C24C6FABE00598663 /* hahahahViewController.cpp */; };
 		CB17E21423A889EC00AF6CAC /* NSObject+SafeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CB17E21223A889EC00AF6CAC /* NSObject+SafeTool.m */; };
 		CB2374F3249CC16A00B34EFA /* NSObject+SelectorDefender.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2374F0249CC16900B34EFA /* NSObject+SelectorDefender.m */; };
 		CB2374F4249CC16A00B34EFA /* NSObject+MethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2374F2249CC16A00B34EFA /* NSObject+MethodSwizzling.m */; };
@@ -918,7 +917,6 @@
 				CB46089924B3218900AB7CF1 /* NSObject+function2.m in Sources */,
 				CB46089624B3217A00AB7CF1 /* NSObject+function1.m in Sources */,
 				CB4AA56623A4E49000CF12E9 /* PJThread.m in Sources */,
-				CB16403D24C6FABE00598663 /* hahahahViewController.cpp in Sources */,
 				CB4AA56723A4E49000CF12E9 /* PJDog.m in Sources */,
 				CB17E21423A889EC00AF6CAC /* NSObject+SafeTool.m in Sources */,
 				CB4AA55723A4E21600CF12E9 /* PJTableViewViewController.m in Sources */,
